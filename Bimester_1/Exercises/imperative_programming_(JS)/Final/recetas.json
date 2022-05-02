@@ -1,0 +1,154 @@
+[
+  {
+    "id": 70098,
+    "nombre": "Pastel de remolacha salado",
+    "tipo": "Entrada",
+    "dificultad": 3,
+    "tiempo": 45,
+    "precio": 80,
+    "menuDelDia": true
+  },
+  {
+    "id": 70157,
+    "nombre": "Empanada de pollo con masa quebrada",
+    "tipo": "Plato principal",
+    "dificultad": 2,
+    "tiempo": 30,
+    "precio": 20,
+    "menuDelDia": true
+  },
+  {
+    "id": 70222,
+    "nombre": "Hojaldre de espárragos trigueros",
+    "tipo": "Entrada",
+    "dificultad": 3,
+    "tiempo": 30,
+    "precio": 40,
+    "menuDelDia": false
+  },
+  {
+    "id": 70248,
+    "nombre": "Empanada de bacalao con masa quebrada",
+    "tipo": "Plato principal",
+    "dificultad": 2,
+    "tiempo": 150,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 70276,
+    "nombre": "Tacos veganos de coliflor",
+    "tipo": "Entrada",
+    "dificultad": 3,
+    "tiempo": 45,
+    "precio": 20,
+    "menuDelDia": true
+  },
+  {
+    "id": 70406,
+    "nombre": "Croquetas de patata y queso",
+    "tipo": "Entrada",
+    "dificultad": 4,
+    "tiempo": 30,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 70411,
+    "nombre": "Postre de coco caramelizado",
+    "tipo": "Postre",
+    "dificultad": 5,
+    "tiempo": 30,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 70424,
+    "nombre": "Empanadas de jamón, queso y choclo",
+    "tipo": "Entrada",
+    "dificultad": 1,
+    "tiempo": 30,
+    "precio": 80,
+    "menuDelDia": false
+  },
+  {
+    "id": 70453,
+    "nombre": "Quiche de bacon y queso de cabra",
+    "dificultad": 2,
+    "tiempo": 90,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 70472,
+    "nombre": "Paté de atún con queso crema",
+    "tipo": "Entrada",
+    "dificultad": 1,
+    "tiempo": 10,
+    "precio": 40,
+    "menuDelDia": false
+  },
+  {
+    "id": 70560,
+    "nombre": "Fajitas de verduras y tofu",
+    "tipo": "Cena",
+    "dificultad": 2,
+    "tiempo": 30,
+    "precio": 20,
+    "menuDelDia": false
+  },
+  {
+    "id": 70648,
+    "nombre": "Hojaldre relleno de queso de cabra",
+    "tipo": "Entrada",
+    "dificultad": 1,
+    "tiempo": 30,
+    "precio": 60,
+    "menuDelDia": true
+  },
+  {
+    "id": 70669,
+    "nombre": "Pastel de champiñones al microondas",
+    "tipo": "Plato principal",
+    "dificultad": 2,
+    "tiempo": 30,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 88762,
+    "nombre": "Fajitas veganas",
+    "tipo": "Plato principal",
+    "dificultad": 1,
+    "tiempo": 45,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 98654,
+    "nombre": "Gyozas de verduras",
+    "tipo": "Entrada",
+    "dificultad": 2,
+    "tiempo": 45,
+    "precio": 40,
+    "menuDelDia": true
+  },
+  {
+    "id": 100100,
+    "nombre": "Helado de achilata",
+    "tipo": "Postre",
+    "dificultad": 1,
+    "tiempo": 10,
+    "precio": 5,
+    "menuDelDia": true
+  },
+  {
+    "id": 998847,
+    "nombre": "Sancocho",
+    "tipo": "Plato principal",
+    "dificultad": 2,
+    "tiempo": 45,
+    "precio": 35,
+    "menuDelDia": true
+  }
+]

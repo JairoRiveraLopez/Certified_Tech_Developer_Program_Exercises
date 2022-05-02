@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #F3F3F3;
+
+}
+
+.divLogoHeader{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.Tipografia{
+    height: 20px;
+    margin: 10px;
+}
+
+.navegador ul{
+    display: flex;
+}
+
+.navegador li{
+    padding: 10px;
+    font-size: 16px;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55.5px;
+    gap: 10px
+}
+
+.divRepartidor{
+    background: url(./img/delivery.jpg);
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+
+}
+
+.divRepartidor h2{
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #FC200C;
+}
+
+.podioPizzas{
+    height: 350px;
+    width: 491px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+.podioPizzas h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #FC200C;
+    font-size: 24px;
+}
+
+.podioPizzas h3{
+    margin-top: 10px;
+    align-self: start;
+    margin-left: 68px;
+    justify-self: flex-end;
+    font-size: 20px;
+}
+
+.listaPodio{
+    display: flex;
+    gap: 100px;
+    height: 200px;
+}
+
+.listaPodio img{
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.listaPodio li{
+    font-weight: bold;
+    align-self: end;
+    margin: 10px;
+}
+
+.listaPodio ol{
+    align-self: center;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F3F3F3;
+    height: 150px;
+    left: 0px;
+    border-radius: 0px;
+}
+
+.divLogoFooter{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.TipografiaFooter{
+    height: 20px;
+    margin: 10px;
+}
+
+footer li{
+    margin: 15px 15px 15px 25px;
+}

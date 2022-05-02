@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.portada{
+padding: 10px;
+height: 38px;
+background: #1CD1B0;
+}
+
+.titulo{
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding: 30px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25); 
+    gap: 20px;
+}
+
+#fa-plus-home{
+    position: relative;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    width: 50px;
+    bottom: 10px;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.bloque{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 530px;
+    margin: 32px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+.banner{
+    display: inline-block;
+    position: relative;
+    height: 34.65%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    bottom: 32px;
+}
+
+.logo{
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        bottom: 120px;
+        display: block;
+        margin: 0 auto;
+}
+
+.texto h2{
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 5px;
+}
+
+.texto p{
+    font-size: 14px;
+    padding: 10px 15px;
+    text-align: justify;
+}
+
+.texto .verMas{
+    background-color: #00669F;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: absolute;
+    color: white;
+    bottom: 1em;
+    left: 5.8em;
+    padding: 10px 40px;
+}
+
+#fa-plus-circle{    
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: fixed;
+    top: 50vh;
+    right: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    filter: invert(21%) sepia(91%) saturate(2197%) hue-rotate(183deg) brightness(94%) contrast(101%);
+}
+
+#fa-plus-circle:hover{
+    filter: invert(72%) sepia(60%) saturate(586%) hue-rotate(112deg) brightness(87%) contrast(89%);
+}
+
+.corazon{
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    z-index: 1;
+}
+
+
+main section{
+    border: 1px;
+    margin: 32px;
+    width: 300px;
+
+}
+
+section.formulario form {
+    position: relative;
+    
+}
+
+section.formulario {
+    font-family: "Inter", sans-serif;
+    background-color: var(--color-primario);
+    border-radius: 50px;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.3);
+    height: 832px;
+    width: 954px;
+    margin: 10vh;
+    background-color: #00669F;
+}
+
+section.formulario > div.titulos {
+    text-align: center;
+    color: #fbfffd;
+    margin-bottom: 4vh;
+}
+
+section.formulario > div.titulos h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+section.formulario > div.titulos p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+div.preguntas,
+div.preguntasLeft,
+div.preguntasRight {
+    display: flex;
+}
+
+div.preguntas {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+div.preguntasLeft,
+div.preguntasRight {
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.preguntasLeft input,
+select {
+    width: 343px;
+    height: 63px;
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+select{
+    padding-left: 15px;
+    color: grey;
+}
+
+textarea {
+    width: 343px;
+    height: 307px;
+    border-radius: 15px;
+    resize: none;
+}
+
+
+textarea:focus {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    color: var(--color-primario);
+}
+
+::placeholder {
+    padding-left: .5rem;
+}
+
+#foto[type="file"] {
+    color: lightgray;
+}
+
+input[type="date"] {
+    color: grey;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.radioYCheck ul {
+    display: block;
+    padding-bottom: 25px;
+}
+
+form > button {
+    position: absolute;
+    top: 587px;
+    left: 244px;
+    background-color: #1cd1b0;
+    width: 466px;
+    height: 87px;
+    border-radius: 24px;
+    border-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form > button:hover {
+    background-color: #001d2d;
+    color: white;
+}
+
+
+footer{
+    height: 51px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    
+    main{
+    flex-wrap: wrap;
+    }
+
+    .titulo{
+        position: relative;
+    }
+
+    #fa-plus-circle{ 
+        width: 20px;
+        height: 20px;
+        right: 15px;
+}
+}
+
+@media screen and (min-width: 401px) and (max-width: 1280px){
+    
+    main{
+        flex-wrap: wrap;
+        }
+
+    .titulo{
+        position: relative;
+        }
+
+    #fa-plus-circle{ 
+        width: 40px;
+        height: 40px;
+        right: 5px;
+}
+}

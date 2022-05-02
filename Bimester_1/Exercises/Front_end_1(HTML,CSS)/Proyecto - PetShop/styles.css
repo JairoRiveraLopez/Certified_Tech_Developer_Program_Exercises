@@ -1,0 +1,328 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_ofertas{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header_ofertas ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    background-color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.logo_empresa{
+    height: 23px;
+    width: 167px;
+}
+
+.bienvenida{
+    background-image: url(./img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 600px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+.bienvenidat1{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+color: #3C2313;
+background: white;
+text-align: center;
+border-radius: 5px;
+padding: 10px 20px;
+}
+
+.bienvenidat2{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 19px;
+text-align: center;
+color: #3C2313;
+}
+
+.bienvenidat3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F0A83E;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.Productos_destacados{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.Productos_destacados h1{
+    color: #3C2313;
+    ;
+}
+.patita{
+    max-height: 67px;
+    max-width: 71px;
+}
+
+.ListaPD{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 40px;
+    color: #666666;
+}
+
+.PD_articulos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.PD_articulos article{
+    background-color: #fbfaf6;
+    text-align: center;
+}
+.PD_articulos article dl{
+    color: #3C2313;
+    font-weight: bold;
+}
+article #precio{
+    color:#F0A83E;
+}
+
+.Contactanos{
+height: 200px;
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
+.Contactanos h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #3C2313;
+    margin-bottom: 20px
+    ;
+}
+
+.Contactanos span{
+    color: #FFFFFF;
+    Width: 340px;
+    Height: 10px;
+    font-weight: 400;
+    font-size: 9px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    ;
+}
+
+.BotonesContactanos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.BotonesContactanos .boton1{
+    background-color: #8A8787;
+    Width: 110px;
+    Height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 4px;
+}
+
+.BotonesContactanos .boton2{
+    background-color: #F0A83E;
+    Width: 110px;
+    Height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 4px;
+}
+
+.informacion{
+    background: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #8A8787;
+}
+
+.Suscribirme{
+    background-color: #F0A83E;
+    height: 70px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Suscribirme .email{
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 28%;
+    left: 30px
+}
+
+.Suscribirme h3{
+    size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    top: 17%;
+    left: 40px;
+    color: #FFFFFF;
+}
+
+.Suscribirme .botonsus1{
+    color: #A0A0A0;
+    font-size: 9px;
+    text-align: start;
+    display: inline-block;
+    position: relative;
+    background-color: #FFFFFF;
+    top: 12%;
+    left: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 17px 200px 17px 5px;
+    border-radius: 15px;
+}
+
+.Suscribirme .botonsus2{
+    color: #FFFFFF;
+    font-size: 9px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: #3C2313;
+    top: 12%;
+    left: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 12px 5px;
+    border-radius: 15px;
+}
+
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3C2313;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer div{
+    display: block;
+}
+
+footer section figure{
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+footer section figure img {
+    padding-right: 1.5rem;
+}
+
+
+.informacion1 span{
+    font-size: 12px;
+    color: #8A8787;;
+}
+
+.informacion2 span{
+    font-size: 12px;
+    color: #8A8787;;
+}
+
+.informacion3 span{
+    font-size: 12px;
+    color: #8A8787;;
+}
+
+.logo_final{
+        display: inline-block;
+        padding-right: 5rem;
+}
+
+.ubicacion, .telefono, .correo{
+    width: 50px;
+}
+
+.final{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "c11---integradora-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "funcionalidad.js",
+  "scripts": {
+    "test": "jest --env=jsdom --watchAll",
+    "test:coverage": "jest --coverage --env=jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

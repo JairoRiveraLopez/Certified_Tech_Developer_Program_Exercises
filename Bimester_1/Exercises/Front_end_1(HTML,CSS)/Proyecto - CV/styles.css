@@ -1,0 +1,67 @@
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: url(../CV/img/photo-1542831371-29b0f74f9713.jfif);
+    background-attachment: fixed;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+nav{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-weight: bold;
+    background-color: salmon;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+span{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+dt, dd, ul, il{
+    font-family: 'Oswald', sans-serif;
+}
+
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: slateblue;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    
+
+}
+.Linkedin, .Facebook, .Github{
+    width: 50px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
