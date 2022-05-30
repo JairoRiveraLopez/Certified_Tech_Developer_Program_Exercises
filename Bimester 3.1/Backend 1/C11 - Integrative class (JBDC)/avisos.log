@@ -1,0 +1,42 @@
+[2022-05-27 20:18:17] [ INFO ] [Empleado:12] Inicializa nuestro sistema.
+[2022-05-27 20:18:17] [ ERROR] [Empleado:28] No puede ingresarse un dato que contenga el mismo ID de un registro previo.
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.EMPLEADOS(ID) ( /* key:3 */ 3, 'Antonella', 'Analista', 700.00)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADOS(ID) ( /* key:3 */ 3, 'Antonella', 'Analista', 700.00)"; SQL statement:
+INSERT INTO EMPLEADOS (ID, NOMBRE, CARGO, SALARIO) VALUES (3,'Milena','Analista','700.00') [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Empleado.main(Empleado.java:26)
+[2022-05-27 20:18:17] [ INFO ] [Empleado:33] Se insertan los datos en la BDD
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:35] 1-Rodrigo-Auxiliar-600.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:35] 2-Alejandro-Coordinador-800.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:35] 3-Antonella-Analista-700.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:35] 4-Araceli-Jefe-1200.00
+[2022-05-27 20:18:17] [ INFO ] [Empleado:39] Se va a hacer un aumento en el empleado llamado 'Rodrigo'
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:42] 1-Rodrigo-Auxiliar-600.00
+[2022-05-27 20:18:17] [ INFO ] [Empleado:47] Comprobacion cambio en la BDD (Modificacion Rodrigo)
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:49] 1-Rodrigo-Analista-700.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:49] 2-Alejandro-Coordinador-800.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:49] 3-Antonella-Analista-700.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:49] 4-Araceli-Jefe-1200.00
+[2022-05-27 20:18:17] [ INFO ] [Empleado:53] A continuacion se eliminara un empleado (En este caso Alejandro)
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:57] 2-Alejandro-Coordinador-800.00
+[2022-05-27 20:18:17] [ INFO ] [Empleado:61] Comprobacion cambio en la BDD (Eliminacio Alejandro)
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:64] 1-Rodrigo-Analista-700.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:64] 3-Antonella-Analista-700.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:64] 4-Araceli-Jefe-1200.00
+[2022-05-27 20:18:17] [ INFO ] [Empleado:68] A continuacion se eliminara un empleado (En este caso Araceli)
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:71] 4-Araceli-Jefe-1200.00
+[2022-05-27 20:18:17] [ INFO ] [Empleado:75] Comprobacion cambio en la BDD (Eliminacio Araceli)
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:78] 1-Rodrigo-Analista-700.00
+[2022-05-27 20:18:17] [ DEBUG] [Empleado:78] 3-Antonella-Analista-700.00
