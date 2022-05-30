@@ -1,0 +1,22 @@
+[2022-05-30 14:12:46] [ INFO ] [Test:28] Creacion de tabla
+[2022-05-30 14:12:46] [ INFO ] [Test:33] Insercion datos en la BDD
+[2022-05-30 14:12:46] [ INFO ] [Test:47] Empezar la modificacion de direccion (Resultado positivo)
+[2022-05-30 14:12:47] [ DEBUG] [Test:62] 
+1
+Jairo
+Rivera
+Cra 80
+1216719942
+1996-02-14
+JAIRIV
+12345
+[2022-05-30 14:12:47] [ INFO ] [Test:69] Empezar la modificacion de direccion (Resultado Negativo)
+[2022-05-30 14:12:47] [ DEBUG] [Test:84] 
+1
+Jairo
+Rivera
+Cra 80
+1216719942
+1996-02-14
+JAIRIV
+12345
