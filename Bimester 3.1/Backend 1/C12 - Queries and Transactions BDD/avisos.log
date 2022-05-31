@@ -1,0 +1,28 @@
+[2022-05-30 19:33:36] [ INFO ] [Test:24] Creacion de tabla
+[2022-05-30 19:33:36] [ INFO ] [Test:29] Insercion datos en la BDD
+[2022-05-30 19:33:36] [ INFO ] [Test:39] Empezar la modificacion de direccion (Resultado positivo)
+[2022-05-30 19:33:36] [ DEBUG] [Test:54] 
+1
+Miraflores
+Rodolfo
+RODO-001
+[2022-05-30 19:33:36] [ INFO ] [Test:59] Empezar la modificacion de direccion (Resultado Negativo)
+[2022-05-30 19:33:36] [ DEBUG] [Test:74] 
+1
+Miraflores
+Rodolfo
+RODO-001
+[2022-05-30 19:34:42] [ INFO ] [Test:24] Creacion de tabla
+[2022-05-30 19:34:42] [ INFO ] [Test:29] Insercion datos en la BDD
+[2022-05-30 19:34:42] [ INFO ] [Test:39] Empezar la modificacion de direccion (Resultado positivo)
+[2022-05-30 19:34:42] [ DEBUG] [Test:54] 
+1
+Miraflores
+Rodolfo
+RODO-001
+[2022-05-30 19:34:42] [ INFO ] [Test:59] Empezar la modificacion de direccion (Resultado Negativo)
+[2022-05-30 19:34:42] [ DEBUG] [Test:74] 
+1
+Miraflores
+Rodolfo
+RODO-001

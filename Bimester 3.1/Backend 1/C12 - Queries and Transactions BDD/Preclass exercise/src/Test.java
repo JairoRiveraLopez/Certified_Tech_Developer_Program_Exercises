@@ -97,6 +97,6 @@ public class Test {
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("org.h2.Driver");
-        return DriverManager.getConnection("jdbc:h2:~/desarrollopreclase13", "Jairo", "oriaJ");
+        return DriverManager.getConnection("jdbc:h2:~/desarrollopreclase12", "Jairo", "oriaJ");
     }
 }
