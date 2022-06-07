@@ -1,0 +1,5 @@
+Mercedes;Iracheta;98457;100.0
+Jairo;Rivera;2244;100.0
+Diego;Yepes;65643;100.0
+Daniel;Arcila;134454;100.0
+Cinthia;Garrido;434332;100.0
