@@ -1,0 +1,7 @@
+[2022-06-02 19:22:10] [ INFO ] [OdontologoServiceTest:18] Se comienza creacion tabla ODONTOLOGOS y se insertan 3 registros
+[2022-06-02 19:22:10] [ INFO ] [OdontologoDAOH2:59] Se comienza una operacion de busqueda de todos los registros de la tabla ODONTOLOGOS
+[2022-06-02 19:22:10] [ INFO ] [OdontologoServiceTest:79] ID: 1 Nombre: Jairo Matricula: 1598
+[2022-06-02 19:22:10] [ INFO ] [OdontologoServiceTest:79] ID: 2 Nombre: Miranda Matricula: 1785
+[2022-06-02 19:22:10] [ INFO ] [OdontologoServiceTest:79] ID: 3 Nombre: Antonio Matricula: 152
+[2022-06-02 19:22:10] [ INFO ] [OdontologoDAOH2:20] Se comienza una operacion de guardado
+[2022-06-02 19:22:10] [ INFO ] [OdontologoServiceTest:43] Se comienza una busqueda para validar si el registro guardado se encuentra en la tabla
