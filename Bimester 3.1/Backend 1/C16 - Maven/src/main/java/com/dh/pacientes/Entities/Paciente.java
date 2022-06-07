@@ -1,4 +1,4 @@
-package Resolucion_Clase.Entities;
+package com.dh.pacientes.Entities;
 
 import java.time.LocalDate;
 

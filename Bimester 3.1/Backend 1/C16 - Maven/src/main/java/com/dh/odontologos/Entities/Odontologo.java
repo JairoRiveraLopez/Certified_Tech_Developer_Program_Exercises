@@ -1,4 +1,4 @@
-package Entities;
+package com.dh.odontologos.Entities;
 
 public class Odontologo {
     private Integer id;

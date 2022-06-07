@@ -23,7 +23,7 @@ public class BBDAux {
     public static void crearTablas() throws SQLException{
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:h2:~/parcialprueba5JairoRivera","User","visitante");
+            connection = DriverManager.getConnection("jdbc:h2:~/parcialprueba6JairoRivera","User","visitante");
             Statement statement = connection.createStatement();
             statement.execute(SQL_CREATE_TABLES);
         } catch (SQLException e) {

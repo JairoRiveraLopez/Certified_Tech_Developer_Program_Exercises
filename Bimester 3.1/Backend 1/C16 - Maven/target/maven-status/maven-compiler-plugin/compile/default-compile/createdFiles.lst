@@ -1,0 +1,13 @@
+com\dh\pacientes\BDDAUX\BBDAux.class
+com\dh\odontologos\Services\OdontologoService.class
+com\dh\pacientes\DAO\DomicilioDAOH2.class
+com\dh\pacientes\Services\ServicePaciente.class
+com\dh\odontologos\Entities\Odontologo.class
+com\dh\odontologos\DAOS\IDao.class
+com\dh\odontologos\DAOS\OdontologoDAOH2.class
+com\dh\pacientes\Entities\Domicilio.class
+com\dh\pacientes\DAO\IDao.class
+com\dh\pacientes\Entities\Paciente.class
+com\dh\odontologos\BDDAUX\BBDAux.class
+com\dh\pacientes\DAO\PacienteDAOH2.class
+com\dh\pacientes\Services\ServiceDomicilio.class

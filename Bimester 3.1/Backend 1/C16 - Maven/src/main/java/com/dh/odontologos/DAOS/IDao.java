@@ -1,4 +1,4 @@
-package DAOS;
+package com.dh.odontologos.DAOS;
 
 import java.sql.SQLException;
 import java.util.List;

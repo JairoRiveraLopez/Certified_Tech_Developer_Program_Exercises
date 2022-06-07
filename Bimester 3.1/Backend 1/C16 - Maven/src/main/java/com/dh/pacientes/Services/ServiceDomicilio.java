@@ -1,8 +1,10 @@
-package Resolucion_Clase.Services;
+package com.dh.pacientes.Services;
 
-import Resolucion_Clase.DAO.IDao;
-import Resolucion_Clase.Entities.Domicilio;
-import Resolucion_Clase.Entities.Paciente;
+
+
+
+import com.dh.pacientes.DAO.IDao;
+import com.dh.pacientes.Entities.Domicilio;
 
 import java.util.List;
 

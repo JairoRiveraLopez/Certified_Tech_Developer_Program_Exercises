@@ -1,7 +1,8 @@
-package Services;
+package com.dh.odontologos.Services;
 
-import DAOS.IDao;
-import Entities.Odontologo;
+
+import com.dh.odontologos.DAOS.IDao;
+import com.dh.odontologos.Entities.Odontologo;
 
 import java.util.List;
 

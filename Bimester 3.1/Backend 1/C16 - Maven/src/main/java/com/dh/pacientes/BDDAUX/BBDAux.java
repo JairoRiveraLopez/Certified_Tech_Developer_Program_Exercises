@@ -1,4 +1,4 @@
-package Resolucion_Clase.BDDAUX;
+package com.dh.pacientes.BDDAUX;
 import org.apache.log4j.Logger;
 import java.sql.*;
 
@@ -25,7 +25,7 @@ public class BBDAux {
     public static void crearTablas() throws SQLException{
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:h2:~/ultimaprueba2mesasclase14", "Jairo", "oriaJ");
+            connection = DriverManager.getConnection("jdbc:h2:~/ultimaprueba3mesasclase14", "Jairo", "oriaJ");
             Statement statement = connection.createStatement();
             statement.execute(SQL_CREATE_TABLES);
         } catch (SQLException e) {

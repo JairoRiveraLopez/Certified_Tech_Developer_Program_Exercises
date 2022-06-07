@@ -1,4 +1,4 @@
-package Resolucion_Clase.Entities;
+package com.dh.pacientes.Entities;
 
 public class Domicilio {
     private Integer domicilio_id;

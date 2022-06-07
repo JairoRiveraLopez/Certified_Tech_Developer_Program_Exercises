@@ -1,10 +1,11 @@
-package Resolucion_Clase.DAO;
+package com.dh.pacientes.DAO;
 
-import Resolucion_Clase.Entities.Domicilio;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.dh.pacientes.Entities.Domicilio;
 import org.apache.log4j.Logger;
 
 
@@ -14,7 +15,7 @@ public class DomicilioDAOH2 implements IDao<Domicilio>{
         private static final Logger logger = Logger.getLogger(DomicilioDAOH2.class);
 
         private static final String DB_JDBC_Driver = "org.h2.Driver";
-        private static final String DB_URL = "jdbc:h2:~/ultimaprueba2mesasclase14";
+        private static final String DB_URL = "jdbc:h2:~/ultimaprueba3mesasclase14";
         private static final String DB_USER = "Jairo";
         private static final String DB_PASSWD = "oriaJ";
         private static final String SQL_INSERT = "INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES (?,?,?,?)";

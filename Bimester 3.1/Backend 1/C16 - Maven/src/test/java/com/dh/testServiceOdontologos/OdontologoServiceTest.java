@@ -1,36 +1,28 @@
-package Services;
+package com.dh.testServiceOdontologos;
 
-import DAOS.OdontologoDAOH2;
-import Entities.Odontologo;
+import com.dh.odontologos.BDDAUX.BBDAux;
+import com.dh.odontologos.DAOS.OdontologoDAOH2;
+import com.dh.odontologos.Entities.Odontologo;
+import com.dh.odontologos.Services.OdontologoService;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.junit.jupiter.api.*;
+
 
 import java.sql.*;
 import java.util.*;
 
-import org.apache.log4j.Logger;
+
+
 
 class OdontologoServiceTest {
-    private static final Logger logger = Logger.getLogger(OdontologoServiceTest.class);
+    private static final Logger logger = LogManager.getLogger(OdontologoServiceTest.class);
 
     @BeforeAll
-    public static void crearYCargarBDD(){
-        Connection connection = null;
-        logger.info("Se comienza creacion tabla ODONTOLOGOS y se insertan 3 registros");
-        try{
-            Class.forName("org.h2.Driver");
-            connection= DriverManager.getConnection("jdbc:h2:~/parcialprueba5JairoRivera;INIT=RUNSCRIPT FROM 'create.sql'","User","visitante");
-        } catch (Exception e){
-            logger.error("Se presento un error en la creacion y cargue de la tabla ODONTOLOGOS");
-        }
-        finally {
-            try{
-                connection.close();
-            }
-            catch (Exception ex){
-                logger.error("Se presento un error con el cierre de la conexion");
-            }
-        }
+    static void init () throws SQLException {
+        BBDAux.crearTablas();
     }
+
     @Test
     @Order(1)
     void guardarOdontologo() {
@@ -45,7 +37,7 @@ class OdontologoServiceTest {
         Odontologo odontologoBusqueda=null;
 
         try{
-            connection= DriverManager.getConnection("jdbc:h2:~/parcialprueba5JairoRivera","User","visitante");
+            connection= DriverManager.getConnection("jdbc:h2:~/parcialprueba6JairoRivera","User","visitante");
             PreparedStatement ps= connection.prepareStatement("SELECT * FROM " +
                     "ODONTOLOGOS WHERE ID=?");
             ps.setInt(1,4);

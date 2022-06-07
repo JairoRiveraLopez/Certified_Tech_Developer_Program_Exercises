@@ -1,10 +1,14 @@
-package Resolucion_Clase.Services;
+package com.dh.testServicePacientes;
 
-import Resolucion_Clase.BDDAUX.BBDAux;
-import Resolucion_Clase.DAO.DomicilioDAOH2;
-import Resolucion_Clase.DAO.PacienteDAOH2;
-import Resolucion_Clase.Entities.Domicilio;
-import Resolucion_Clase.Entities.Paciente;
+
+
+import com.dh.pacientes.BDDAUX.BBDAux;
+import com.dh.pacientes.DAO.DomicilioDAOH2;
+import com.dh.pacientes.DAO.PacienteDAOH2;
+import com.dh.pacientes.Entities.Domicilio;
+import com.dh.pacientes.Entities.Paciente;
+import com.dh.pacientes.Services.ServiceDomicilio;
+import com.dh.pacientes.Services.ServicePaciente;
 import org.junit.jupiter.api.*;
 import org.apache.log4j.Logger;
 import java.sql.*;

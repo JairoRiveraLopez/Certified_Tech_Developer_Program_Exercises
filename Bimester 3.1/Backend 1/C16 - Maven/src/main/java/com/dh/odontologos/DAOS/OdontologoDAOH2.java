@@ -1,15 +1,16 @@
-package DAOS;
+package com.dh.odontologos.DAOS;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Entities.Odontologo;
+
+import com.dh.odontologos.Entities.Odontologo;
 import org.apache.log4j.Logger;
 import java.sql.*;
 public class OdontologoDAOH2 implements IDao<Odontologo>{
     private static final Logger logger = Logger.getLogger(OdontologoDAOH2.class);
     private static final String DB_JDBC_Driver = "org.h2.Driver";
-    private static final String DB_URL = "jdbc:h2:~/parcialprueba5JairoRivera";
+    private static final String DB_URL = "jdbc:h2:~/parcialprueba6JairoRivera";
     private static final String DB_USER = "User";
     private static final String DB_PASSWD = "visitante";
     private static final String SQL_INSERT = "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)";

@@ -1,7 +1,8 @@
-package Resolucion_Clase.DAO;
+package com.dh.pacientes.DAO;
 
-import Resolucion_Clase.Entities.Domicilio;
-import Resolucion_Clase.Entities.Paciente;
+
+import com.dh.pacientes.Entities.Domicilio;
+import com.dh.pacientes.Entities.Paciente;
 import org.apache.log4j.Logger;
 import java.sql.*;
 import java.time.LocalDate;
@@ -14,7 +15,7 @@ public class PacienteDAOH2 implements IDao<Paciente>{
     private static final Logger logger = Logger.getLogger(PacienteDAOH2.class);
 
     private static final String DB_JDBC_Driver = "org.h2.Driver";
-    private static final String DB_URL = "jdbc:h2:~/ultimaprueba2mesasclase14";
+    private static final String DB_URL = "jdbc:h2:~/ultimaprueba3mesasclase14";
     private static final String DB_USER = "Jairo";
     private static final String DB_PASSWD = "oriaJ";
     private static final String SQL_INSERT = "INSERT INTO PACIENTES (NOMBRE, DNI, FECHA_INGRESO, PACIENTE_DOMICILIO_ID) VALUES (?,?,?,?)";

@@ -1,4 +1,4 @@
-package Resolucion_Clase.DAO;
+package com.dh.pacientes.DAO;
 
 import java.sql.SQLException;
 import java.util.List;

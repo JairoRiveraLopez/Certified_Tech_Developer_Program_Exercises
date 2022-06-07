@@ -1,0 +1,21 @@
+[2022-06-05 22:58:54] [ INFO ] [OdontologoDAOH2:60] Se comienza una operacion de busqueda de todos los registros de la tabla ODONTOLOGOS
+[2022-06-05 22:58:54] [ INFO ] [OdontologoServiceTest:71] ID: 1 Nombre: Jairo Matricula: 1598
+[2022-06-05 22:58:54] [ INFO ] [OdontologoServiceTest:71] ID: 2 Nombre: Miranda Matricula: 1785
+[2022-06-05 22:58:54] [ INFO ] [OdontologoServiceTest:71] ID: 3 Nombre: Antonio Matricula: 152
+[2022-06-05 22:58:54] [ INFO ] [OdontologoDAOH2:21] Se comienza una operacion de guardado
+[2022-06-05 22:58:54] [ INFO ] [OdontologoServiceTest:35] Se comienza una busqueda para validar si el registro guardado se encuentra en la tabla
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:94] Se comienza una operación de busqueda singular
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:92] Se comienza una operación de busqueda singular
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:68] Se comienza una operación de eliminacion
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:92] Se comienza una operación de busqueda singular
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:29] Se comienza una operación de guardado
+[2022-06-05 22:58:54] [ INFO ] [PacienteDAOH2:134] Se comienza una operación de busqueda total
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:92] Se comienza una operación de busqueda singular
+[2022-06-05 22:58:54] [ INFO ] [DomicilioDAOH2:92] Se comienza una operación de busqueda singular
