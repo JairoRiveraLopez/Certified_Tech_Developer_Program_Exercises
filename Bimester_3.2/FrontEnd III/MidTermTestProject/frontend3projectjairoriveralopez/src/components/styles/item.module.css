@@ -1,0 +1,57 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: auto;
+    padding: 30px;
+    border-style: solid;    
+    border-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item h5{
+    font-size: 14px;
+}
+
+.item p{
+    text-align: justify;
+    margin: 10px 30px 10px 0px;
+}
+
+.available{
+    font-size: 16px;
+    color: green;
+}
+
+.soldOut{
+    font-size: 16px;
+    color: red;
+    font: bold;
+}
+
+button{
+    align-self: center;
+    background-color: white;
+    width: 15rem;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+button:hover{
+    color: darkblue;
+    background-color: lightblue;
+}
+
+button:disabled,
+button[disabled]{
+background-color: #cccccc;
+color: #666666;
+}
